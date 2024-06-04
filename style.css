@@ -67,13 +67,3 @@ a.link i{
 a.link button:hover{
     transform: scale(1.08);
 }
-
-#copyright{
-    color: #fff;
-    background-color: transparent !important;
-    background: none !important;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
