@@ -10,7 +10,7 @@ html{
     font-size: 14px;
 }
 body{
-    background: linear-gradient(to bottom, #0b0b0b 90%, #1a1a1a);
+    background: #0b0b0b;
     height: 100%;
 }
 .container{
@@ -113,9 +113,6 @@ svg{
     margin-left: 29px;
 }
 @media screen and (max-width: 750px){
-    html{
-        height: 100%;
-    }
     #pe1{
         left: 160px;
     }
