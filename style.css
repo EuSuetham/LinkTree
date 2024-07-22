@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'outfit', sans-serif;
-    position: relative;
 }
 html{
     height: 100vh;
@@ -32,88 +31,48 @@ a{
 header{
     text-align: center;
     margin-bottom: 10px;
+    margin-top: -70px;
 }
 header img{
-    max-width: 450px;
+    max-width: 340px;
     margin-bottom: 20px;
-    user-select: none;
-    pointer-events: none;
-    -webkit-user-drag: none;
 }
 header h1{
+    font-size: 2.3em;
     color: #272727;
 }
-section .link{
+section.link{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
-.link button{
+a.link button{
     width: 100%;
-    padding: 13px 20px;
+    padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 20px;
+    border: 7px solid #0b0b0b;
+    border-radius: 25px;
     font-size: 1.2em;
     font-size: 1.3em;
     cursor: pointer;
     color: #fff;
-    transition: .4s;
-    margin-bottom: 15px;
-    border: none;
+    transition: .3s;
 }
 a.link i{
     font-size: 2em;
 }
 a.link button:hover{
-    transform: scale(1.03);
+    transform: scale(1.08);
 }
 .botoes-links{
     position: relative;
-    margin-top: -100px;
+    margin-top: -10px;
 }
-h1{
-    position: relative;
-    top: -100px;
-    font-weight: 600;
-    font-size: 2.5em;
-    user-select: none;
-}
-p{
-    position: relative;
-    top: -100px;
-    font-family: 'Poppins', sans-serif;
-}
-svg{
-    width: 20px;
-    height: 20px;
-}
-.rodape button{
-    background: transparent;
-    border-radius: 50px;
-    border: 1px solid #333333;
-    padding: 15px 15px;
-    position: relative;
-    left: 200px;
-    margin-bottom: 20px;
-}
-.rodape button:hover{
-    transition: .5s;
-    transform: scale(1.1);
-    background-color: #333333;
-}
-.rodape button:not(:hover){
-    transition: .3s;
-    transform: scale(1);
-}
-#pe1{
-    flex-direction: column;
-    margin-left: 29px;
-}
-@media screen and (max-width: 750px){
-    #pe1{
-        left: 160px;
-    }
+header h1{
+    position: relative;    
+    margin-top: -80px;
 }
